@@ -1,6 +1,7 @@
 const mongodb = require('../data/database');
 const ObjectId = require('mongodb').ObjectId;
 
+// Express middleware uses the "req, res" to pull and push data
 const getAll = async (req, res) => {
     const result = await mongodb.getDatabase().db().collection('users').find();
     result.toArray().then((users) => {
