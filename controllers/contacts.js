@@ -1,3 +1,7 @@
+// controllers/contacts.js
+// Calls the "getDatabase" function, and defines the collection and parameters for retrieving the data
+// Creates new functions for interacting with the specified collection (contacts)
+
 const mongodb = require('../data/database');
 const ObjectId = require('mongodb').ObjectId;
 

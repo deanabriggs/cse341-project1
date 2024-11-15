@@ -4,6 +4,8 @@ GET http://localhost:3000/contacts
 ### Get a specific contact
 GET http://localhost:3000/contacts/67337169f70203f9695f28a2
 
+
+
 ### Get all contacts from render page
 GET https://project1-uxpv.onrender.com/contacts
 

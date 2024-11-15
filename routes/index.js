@@ -1,8 +1,14 @@
+// routes/index.js
+// Home page route and direction for sub-routes
+
 const router = require('express').Router();
 
-router.get('/', (req, res) => {res.send('Hello World')});
+// Home page route
+router.get('/', (req, res) => {res.send('Home Page')});
 
+// Sub-routes
 router.use('/users', require('./users'));
 router.use('/contacts', require('./contacts'));
 
+// Exports router
 module.exports = router;

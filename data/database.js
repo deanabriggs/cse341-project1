@@ -1,3 +1,6 @@
+// data/database.js
+// Connects to the database using the environment variable
+// Creates functions to allow interaction with the database throughout the program
 
 // helps read connections string in when not in production environment
 const dotenv = require('dotenv').config();

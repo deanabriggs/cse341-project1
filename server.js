@@ -1,3 +1,7 @@
+// server.js
+// Sets up a server and listens on the specified port
+// It initializes the connection to the database before starting the server
+
 const express = require('express');
 const mongodb = require('./data/database');
 const app = express();
