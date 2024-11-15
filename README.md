@@ -1,4 +1,4 @@
-# Creating an API to Store and Retrieve Data
+# Creating an API
 
 This project uses Node.js to connect with MongoDB and then displays results on a Render website.
 
@@ -16,3 +16,4 @@ In this project, contacts and users are stored in a MongoDB. This application wo
 
 - [Render Link](https://project1-uxpv.onrender.com/)
 - [Git Repository](https://github.com/deanabriggs/cse341-project1.git)
+- [Explaination Video](https://youtu.be/-Q4NnWieBzU)
