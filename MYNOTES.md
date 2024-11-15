@@ -40,7 +40,7 @@
 ### Organize Code
 
 - Create a "routes" folder with a "index.js"
-- Include the file in the "server.js" file using `app.use('/', './routes'));`
+- Include the file in the "server.js" file using `app.use('/', '(./routes'));`
 - To analyze functionaliy, in the "index.js" file add `router.get('/', (req, res) => {res.send('Hello World');});`
 - Export the module using `module.exports = router;`
 - Save files
