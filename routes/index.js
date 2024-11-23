@@ -3,8 +3,6 @@
 
 const router = require('express').Router();
 
-router.use('/', require('./swagger'));
-
 // Home page route
 router.get('/', (req, res) => {
     //#swagger.tags=['Hello World']
@@ -12,8 +10,8 @@ router.get('/', (req, res) => {
 });
 
 // Sub-routes
-router.use('/users', require('./users'));
 router.use('/contacts', require('./contacts'));
+router.use('/', require('./swagger'));
 
 // Exports router
 module.exports = router;
