@@ -5,9 +5,65 @@ GET http://localhost:3000/contacts
 GET http://localhost:3000/contacts/67337169f70203f9695f28a2
 
 
+### Create contact
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Betty",
+    "lastName": "Eastler",
+    "email": "betty@heremail.com",
+    "favoriteColor": "blue",
+    "birthday": "1932-07-15"
+}
+
+### Update Contact
+PUT http://localhost:3000/contacts/6741608e9128910bb403ac87 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "MariAnn",
+    "lastName": "Albrecht",
+    "email": "mariann@heremail.com",
+    "favoriteColor": "Red",
+    "birthday": "1983-08-05"
+}
+
+### Delete Contact
+DELETE http://localhost:3000/contacts/674161ea3102c9ea668edef1 HTTP/1.1
+
+
+
 
 ### Get all contacts from render page
 GET https://project1-uxpv.onrender.com/contacts
 
 ### Get a specific contact from render page
 GET https://project1-uxpv.onrender.com/contacts/67337169f70203f9695f28a2
+
+### Create contact
+POST https://project1-uxpv.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Betty",
+    "lastName": "Eastler",
+    "email": "betty@heremail.com",
+    "favoriteColor": "blue",
+    "birthday": "1932-07-15"
+}
+
+### Update Contact
+PUT https://project1-uxpv.onrender.com/contacts/6741608e9128910bb403ac87 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "MariAnn",
+    "lastName": "Albrecht",
+    "email": "mariann@heremail.com",
+    "favoriteColor": "Red",
+    "birthday": "1983-08-05"
+}
+
+### Delete Contact
+DELETE https://project1-uxpv.onrender.com/contacts/674161ea3102c9ea668edef1 HTTP/1.1
