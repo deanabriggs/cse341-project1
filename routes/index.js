@@ -6,7 +6,7 @@ const router = require('express').Router();
 // Home page route
 router.get('/', (req, res) => {
     //#swagger.tags=['Hello World']
-    res.send('Home Page');
+    res.send('Hello World');
 });
 
 // Sub-routes
