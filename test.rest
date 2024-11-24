@@ -30,7 +30,7 @@ content-type: application/json
 }
 
 ### Delete Contact
-DELETE http://localhost:3000/contacts/674161ea3102c9ea668edef1 HTTP/1.1
+DELETE http://localhost:3000/contacts/674182fba28f6e3fac215077 HTTP/1.1
 
 
 
@@ -47,7 +47,7 @@ content-type: application/json
 
 {
     "firstName": "Betty",
-    "lastName": "Eastler",
+    "lastName": "Easler",
     "email": "betty@heremail.com",
     "favoriteColor": "blue",
     "birthday": "1932-07-15"
@@ -66,4 +66,4 @@ content-type: application/json
 }
 
 ### Delete Contact
-DELETE https://project1-uxpv.onrender.com/contacts/674161ea3102c9ea668edef1 HTTP/1.1
+DELETE https://project1-uxpv.onrender.com/contacts/6741801f2738a08955fa17b4 HTTP/1.1
